@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,38 @@ namespace warenkorb
             {
                 AmountDUD.Items.Add(i.ToString());
             }
+            List<Product> Productslist = new List<Product>();
+
+
+
+            // Verbindung zur Datenbank herstellen
+            string connectionString = "Server=mssql1.webland.ch;Database=d041e_blj;User Id=d041e_blj;Password=BljDbPw_01;";
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+
+            // Abfrage vorbereiten
+            SqlCommand command = new SqlCommand();
+            command.Connection = connection;
+            command.CommandText = "select * from products";
+
+            // Abfrage ausführen 
+            SqlDataReader reader = command.ExecuteReader();
+
+
+            while (reader.Read())
+            {
+                Product p = new Product();
+                p.Name = reader["product_name"].ToString();
+                p.Price = double.Parse(reader["product_price"].ToString());
+                p.Id = int.Parse(reader["product_id"].ToString());
+                Productslist.Add(p);
+                // etc ...
+            }
+            foreach (Product p in Productslist) {
+
+                ProductChoiceCB.Items.Add(p);
+                    }
+
         }
         public void show_form()
         {
@@ -76,7 +109,10 @@ namespace warenkorb
             show_form();
         }
 
+        private void WarenkorbV2_Click(object sender, EventArgs e)
+        {
 
+        }
     }
     }
 

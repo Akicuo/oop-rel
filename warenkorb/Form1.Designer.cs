@@ -51,7 +51,6 @@
             this.ProductChoiceCB.Name = "ProductChoiceCB";
             this.ProductChoiceCB.Size = new System.Drawing.Size(292, 28);
             this.ProductChoiceCB.TabIndex = 1;
-            this.ProductChoiceCB.SelectedIndexChanged += new System.EventHandler(this.ProductChoiceCB_SelectedIndexChanged);
             // 
             // ProduktLabel
             // 
@@ -133,7 +132,7 @@
             this.WarenkorbV2.Size = new System.Drawing.Size(155, 116);
             this.WarenkorbV2.TabIndex = 10;
             this.WarenkorbV2.UseVisualStyleBackColor = true;
-            this.WarenkorbV2.Click += new System.EventHandler(this.button1_Click);
+            this.WarenkorbV2.Click += new System.EventHandler(this.WarenkorbV2_Click);
             // 
             // ResultSCTB
             // 
@@ -143,7 +142,6 @@
             this.ResultSCTB.Name = "ResultSCTB";
             this.ResultSCTB.Size = new System.Drawing.Size(641, 326);
             this.ResultSCTB.TabIndex = 11;
-            this.ResultSCTB.TextChanged += new System.EventHandler(this.ResultSCTB_TextChanged);
             // 
             // labelGesamtSumme
             // 
