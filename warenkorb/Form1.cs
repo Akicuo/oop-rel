@@ -39,19 +39,22 @@ namespace warenkorb
             SqlDataReader reader = command.ExecuteReader();
 
 
+
             while (reader.Read())
             {
+                linkLabel1.Text += reader.NextResult().ToString();
                 Product p = new Product();
                 p.Name = reader["product_name"].ToString();
-                p.Price = double.Parse(reader["product_price"].ToString());
-                p.Id = int.Parse(reader["product_id"].ToString());
+                // p.Price = double.Parse(reader["product_price"].ToString());
+                // p.Id = int.Parse(reader["product_id"].ToString());
                 Productslist.Add(p);
                 // etc ...
             }
             foreach (Product p in Productslist) {
 
-                ProductChoiceCB.Items.Add(p);
+                ProductChoiceCB.Items.Add(p.Name);
                     }
+            show_form();
 
         }
         public void show_form()
@@ -90,6 +93,7 @@ namespace warenkorb
             linkLabel1.Visible = false;
             AmountTB.Visible = false;
         }
+        
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
