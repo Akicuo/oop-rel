@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|c:\\users\\lyan_labaguis\\source\\repos\\worttabelle\\wordtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|solutionrelative:wordtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|c:\\users\\lyan_labaguis\\source\\repos\\worttabelle\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|c:\\users\\lyan_labaguis\\source\\repos\\worttabelle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7982E950-6384-4928-B09B-2C9D16BB71DE}|worttabelle.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 50,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAWwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:07:56.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:55:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WordTab.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\WordTab.cs",
+              "RelativeDocumentMoniker": "WordTab.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\WordTab.cs",
+              "RelativeToolTip": "WordTab.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:10:41.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\worttabelle\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:56:36.165Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\bin\Debug\¨sdberbe.exe.config
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\bin\Debug\¨sdberbe.exe
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\bin\Debug\¨sdberbe.pdb
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\¨sdberbe.csproj.AssemblyReference.cache
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\_sdberbe.Properties.Resources.resources
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\¨sdberbe.csproj.GenerateResource.cache
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\¨sdberbe.csproj.CoreCompileInputs.cache
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\¨sdberbe.exe
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\¨sdberbe.pdb
+C:\Users\Lyan_Labaguis\source\repos\¨sdberbe\obj\Debug\_sdberbe.Form1.resources

@@ -1,0 +1,10 @@
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\bin\Debug\worttabelle.exe.config
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\bin\Debug\worttabelle.exe
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\bin\Debug\worttabelle.pdb
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.csproj.AssemblyReference.cache
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.Form1.resources
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.Properties.Resources.resources
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.csproj.GenerateResource.cache
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.csproj.CoreCompileInputs.cache
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.exe
+C:\Users\Lyan_Labaguis\source\repos\worttabelle\obj\Debug\worttabelle.pdb

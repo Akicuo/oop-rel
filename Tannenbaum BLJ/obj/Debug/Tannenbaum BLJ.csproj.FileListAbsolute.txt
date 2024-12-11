@@ -1,0 +1,10 @@
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\bin\Debug\Tannenbaum BLJ.exe.config
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\bin\Debug\Tannenbaum BLJ.exe
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\bin\Debug\Tannenbaum BLJ.pdb
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum BLJ.csproj.AssemblyReference.cache
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum_BLJ.Form1.resources
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum_BLJ.Properties.Resources.resources
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum BLJ.csproj.GenerateResource.cache
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum BLJ.csproj.CoreCompileInputs.cache
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum BLJ.exe
+C:\Users\Lyan_Labaguis\source\repos\Tannenbaum BLJ\obj\Debug\Tannenbaum BLJ.pdb
