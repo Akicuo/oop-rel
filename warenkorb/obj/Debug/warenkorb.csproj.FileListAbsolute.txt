@@ -1,0 +1,10 @@
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\bin\Debug\warenkorb.exe.config
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\bin\Debug\warenkorb.exe
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\bin\Debug\warenkorb.pdb
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.csproj.AssemblyReference.cache
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.Form1.resources
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.Properties.Resources.resources
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.csproj.GenerateResource.cache
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.csproj.CoreCompileInputs.cache
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.exe
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\warenkorb\obj\Debug\warenkorb.pdb
