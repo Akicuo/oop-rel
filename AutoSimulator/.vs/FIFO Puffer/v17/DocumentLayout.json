@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\",
+  "WorkspaceRootPath": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|c:\\users\\lyan_labaguis\\source\\repos\\autosimulator\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|solutionrelative:auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|c:\\users\\lyan_labaguis\\source\\repos\\oop-rel\\autosimulator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|c:\\users\\lyan_labaguis\\source\\repos\\oop-rel\\autosimulator\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|solutionrelative:auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C6D127E-A9F8-42D7-82F6-69D9A24DF3E6}|FIFO Puffer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 50,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,19 +35,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAnwKoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T06:36:28.835Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -58,12 +45,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:34:30.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Auto.cs",
-              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Auto.cs",
               "RelativeDocumentMoniker": "Auto.cs",
-              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Auto.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Auto.cs",
               "RelativeToolTip": "Auto.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwEcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T06:44:04.626Z",
               "EditorCaption": ""
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T06:35:22.064Z",
@@ -84,14 +84,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\AutoSimulator\\Program.cs",
+              "ToolTip": "C:\\Users\\Lyan_Labaguis\\source\\repos\\oop-rel\\AutoSimulator\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:41:23.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:41:23.481Z"
             }
           ]
         }

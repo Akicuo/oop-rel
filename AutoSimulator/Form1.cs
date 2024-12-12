@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -15,54 +16,17 @@ namespace FIFO_Puffer
 {
     public partial class Form1 : Form
     {
-        public Auto auto;
-        public bool carSelected = true;
+        public Auto auto = null;
 
         public Form1()
         {
             InitializeComponent();
-            
             
             comboBoxAutos.Items.Add(new Auto("Porsche", 250));
             comboBoxAutos.Items.Add(new Auto("Opel", 90));
             comboBoxAutos.Items.Add(new Auto("Ferrari", 370));
 
         }
-
-
-
-
-        public void ChangeGearDependingOnSpeed()
-        {
-            int m = 1;
-            if (auto.AktuelleGeschwindigkeit > -100 && auto.AktuelleGeschwindigkeit <= 10) // between -100 and 10
-            {
-                m = 1;
-            } else if (auto.AktuelleGeschwindigkeit > 11 && auto.AktuelleGeschwindigkeit <= 20)
-            {
-                m = 2;
-            }
-            else if (auto.AktuelleGeschwindigkeit > 20 && auto.AktuelleGeschwindigkeit <= 40)
-            {
-                m = 3;
-            }
-            else if (auto.AktuelleGeschwindigkeit > 40 && auto.AktuelleGeschwindigkeit <= 70)
-            {
-                m = 4;
-            }
-            else if (auto.AktuelleGeschwindigkeit > 70 && auto.AktuelleGeschwindigkeit <= 100)
-            {
-                m = 5;
-            }
-            else if (auto.AktuelleGeschwindigkeit >= 101)
-            {
-                m = 6;
-            }
-            textBox2.Text = m.ToString();
-        }
-
-
-
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -80,21 +44,14 @@ namespace FIFO_Puffer
 
 
         private void comboBoxAutos_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            
+        {          
             auto = (Auto)comboBoxAutos.SelectedItem;
-            carSelected = true; 
-
-
-
-            label2.Text = auto.PS + " PS";
-
-
+            UpdateUI();
         }
 
         private void keyEngineStart_Click(object sender, EventArgs e)
         {
-            if (carSelected)
+            if (auto != null)
             { 
                 if (auto.TankFuellstand != 0)
                 {
@@ -117,36 +74,24 @@ namespace FIFO_Puffer
             }
 
         }
-        public void tio()
-        {
-            StatusIndicator.BackColor = Color.Red;
-        }
-
-
-
-
-
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            if (carSelected)
+            if (auto != null)
                 if (auto.IstMotorGestartet)
                 {
-                    auto.GibGas();
-                    textBox1.Text = Convert.ToString(auto.AktuelleGeschwindigkeit);
-                    progressBar2.Value = auto.TankFuellstand;
-                    ChangeGearDependingOnSpeed();
+                    auto.GibGas();           
                 }
-                
+                else
+                {
+                    MessageBox.Show("Der Motor ist nicht gestartet.");
+                }
             else
             {
                 MessageBox.Show("Bitte wählen Sie zuerst ein Auto aus.");
             }
+
+            UpdateUI();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -154,23 +99,38 @@ namespace FIFO_Puffer
             if (auto != null)
                 if (auto.IstMotorGestartet)
                 {
-                    auto.Bremse();
-                    textBox1.Text = Convert.ToString(auto.AktuelleGeschwindigkeit);
-                    progressBar2.Value = auto.TankFuellstand;
-                    ChangeGearDependingOnSpeed();
+                    auto.Bremse();        
                 }
 
                 else
                 {
                     MessageBox.Show("Bitte wählen Sie zuerst ein Auto aus.");
                 }
+
+            UpdateUI();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Lyan_Labaguis\source\repos\AutoSimulator\honk.wav");
+            MemoryStream ms = new MemoryStream(Properties.Resources.honk);
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(ms);
+           
             player.Play();
         }
+
+        private void UpdateUI()
+        {
+            if (auto != null)
+            {
+                textBox2.Text = auto.AktuellerGang.ToString();
+                textBox1.Text = Convert.ToString(auto.AktuelleGeschwindigkeit);
+                progressBar2.Value = auto.TankFuellstand;
+                label2.Text = auto.PS + " PS";
+            }
+         
+
+        }
+
     }
 }
 

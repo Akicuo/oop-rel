@@ -37,11 +37,12 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.WarenkorbIcon = new System.Windows.Forms.Button();
             this.AmountTB = new System.Windows.Forms.Label();
-            this.AmountDUD = new System.Windows.Forms.DomainUpDown();
             this.WarenkorbV2 = new System.Windows.Forms.Button();
             this.ResultSCTB = new System.Windows.Forms.TextBox();
-            this.labelGesamtSumme = new System.Windows.Forms.Label();
+            this.labelGesammtSumme = new System.Windows.Forms.Label();
             this.CancelButton = new System.Windows.Forms.Button();
+            this.AmountDUD = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.AmountDUD)).BeginInit();
             this.SuspendLayout();
             // 
             // ProductChoiceCB
@@ -78,6 +79,7 @@
             this.SubmitButton.TabIndex = 5;
             this.SubmitButton.Text = "Zum Warenkorb hinzufügen";
             this.SubmitButton.UseVisualStyleBackColor = true;
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
             // linkLabel1
             // 
@@ -112,14 +114,6 @@
             this.AmountTB.TabIndex = 8;
             this.AmountTB.Text = "(0)";
             // 
-            // AmountDUD
-            // 
-            this.AmountDUD.Location = new System.Drawing.Point(307, 226);
-            this.AmountDUD.Name = "AmountDUD";
-            this.AmountDUD.Size = new System.Drawing.Size(120, 26);
-            this.AmountDUD.TabIndex = 9;
-            this.AmountDUD.Text = "0";
-            // 
             // WarenkorbV2
             // 
             this.WarenkorbV2.Enabled = false;
@@ -132,26 +126,26 @@
             this.WarenkorbV2.Size = new System.Drawing.Size(155, 116);
             this.WarenkorbV2.TabIndex = 10;
             this.WarenkorbV2.UseVisualStyleBackColor = true;
-            this.WarenkorbV2.Click += new System.EventHandler(this.WarenkorbV2_Click);
             // 
             // ResultSCTB
             // 
             this.ResultSCTB.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ResultSCTB.Location = new System.Drawing.Point(28, 156);
+            this.ResultSCTB.Location = new System.Drawing.Point(28, 165);
             this.ResultSCTB.Multiline = true;
             this.ResultSCTB.Name = "ResultSCTB";
+            this.ResultSCTB.ReadOnly = true;
             this.ResultSCTB.Size = new System.Drawing.Size(641, 326);
             this.ResultSCTB.TabIndex = 11;
             // 
-            // labelGesamtSumme
+            // labelGesammtSumme
             // 
-            this.labelGesamtSumme.AutoSize = true;
-            this.labelGesamtSumme.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.labelGesamtSumme.Location = new System.Drawing.Point(58, 522);
-            this.labelGesamtSumme.Name = "labelGesamtSumme";
-            this.labelGesamtSumme.Size = new System.Drawing.Size(251, 30);
-            this.labelGesamtSumme.TabIndex = 12;
-            this.labelGesamtSumme.Text = "Gesamtsumme: 0.00";
+            this.labelGesammtSumme.AutoSize = true;
+            this.labelGesammtSumme.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.labelGesammtSumme.Location = new System.Drawing.Point(58, 522);
+            this.labelGesammtSumme.Name = "labelGesammtSumme";
+            this.labelGesammtSumme.Size = new System.Drawing.Size(251, 30);
+            this.labelGesammtSumme.TabIndex = 12;
+            this.labelGesammtSumme.Text = "Gesamtsumme: 0.00";
             // 
             // CancelButton
             // 
@@ -164,16 +158,22 @@
             this.CancelButton.UseVisualStyleBackColor = true;
             this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
+            // AmountDUD
+            // 
+            this.AmountDUD.Location = new System.Drawing.Point(298, 228);
+            this.AmountDUD.Name = "AmountDUD";
+            this.AmountDUD.Size = new System.Drawing.Size(120, 26);
+            this.AmountDUD.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 608);
             this.Controls.Add(this.CancelButton);
-            this.Controls.Add(this.labelGesamtSumme);
+            this.Controls.Add(this.labelGesammtSumme);
             this.Controls.Add(this.ResultSCTB);
             this.Controls.Add(this.WarenkorbV2);
-            this.Controls.Add(this.AmountDUD);
             this.Controls.Add(this.AmountTB);
             this.Controls.Add(this.WarenkorbIcon);
             this.Controls.Add(this.linkLabel1);
@@ -181,8 +181,10 @@
             this.Controls.Add(this.AmountLabel);
             this.Controls.Add(this.ProduktLabel);
             this.Controls.Add(this.ProductChoiceCB);
+            this.Controls.Add(this.AmountDUD);
             this.Name = "Form1";
             this.Text = "Bestellungen erfassen";
+            ((System.ComponentModel.ISupportInitialize)(this.AmountDUD)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,11 +200,11 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button WarenkorbIcon;
         private System.Windows.Forms.Label AmountTB;
-        private System.Windows.Forms.DomainUpDown AmountDUD;
         private System.Windows.Forms.Button WarenkorbV2;
         private System.Windows.Forms.TextBox ResultSCTB;
-        private System.Windows.Forms.Label labelGesamtSumme;
-        private System.Windows.Forms.Button CancelButton;
+        private System.Windows.Forms.Label labelGesammtSumme;
+        private new System.Windows.Forms.Button CancelButton;
+        private System.Windows.Forms.NumericUpDown AmountDUD;
     }
 }
 

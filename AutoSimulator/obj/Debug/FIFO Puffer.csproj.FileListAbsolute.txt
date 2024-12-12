@@ -18,3 +18,13 @@ C:\Users\Lyan_Labaguis\source\repos\AutoSimulator\obj\Debug\FIFO Puffer.csproj.G
 C:\Users\Lyan_Labaguis\source\repos\AutoSimulator\obj\Debug\FIFO Puffer.csproj.CoreCompileInputs.cache
 C:\Users\Lyan_Labaguis\source\repos\AutoSimulator\obj\Debug\FIFO Puffer.exe
 C:\Users\Lyan_Labaguis\source\repos\AutoSimulator\obj\Debug\FIFO Puffer.pdb
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\bin\Debug\FIFO Puffer.exe.config
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\bin\Debug\FIFO Puffer.exe
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\bin\Debug\FIFO Puffer.pdb
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO Puffer.csproj.AssemblyReference.cache
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO_Puffer.Form1.resources
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO_Puffer.Properties.Resources.resources
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO Puffer.csproj.GenerateResource.cache
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO Puffer.csproj.CoreCompileInputs.cache
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO Puffer.exe
+C:\Users\Lyan_Labaguis\source\repos\oop-rel\AutoSimulator\obj\Debug\FIFO Puffer.pdb

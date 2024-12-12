@@ -14,7 +14,9 @@ namespace warenkorb
 
         public double GetAmount()
         {
-            return Product.Price * Quantity;
+            return (double)Product.Price * Quantity;
         }
+
     }
+
 }
